@@ -15,7 +15,7 @@ import BaseIcon from '@/components/ui/BaseIcon.vue'
       <a href="#products">Products</a>
       <a href="#community">Community</a>
       <a href="#journal">Journal</a>
-<a href="#philosophy">Philosophy</a>
+      <a href="#philosophy">Philosophy</a>
     </nav>
 
     <a
@@ -42,8 +42,6 @@ import BaseIcon from '@/components/ui/BaseIcon.vue'
   align-items: center;
   justify-content: space-between;
   padding-block: var(--spacing-md);
-
-
 }
 
 .header__nav {
@@ -52,7 +50,7 @@ import BaseIcon from '@/components/ui/BaseIcon.vue'
 }
 
 .header__nav a {
-  font-weight:var(--font-weight-medium);
+  font-weight: var(--font-weight-medium);
   text-transform: uppercase;
 }
 
@@ -70,5 +68,4 @@ import BaseIcon from '@/components/ui/BaseIcon.vue'
     order: -1;
   }
 }
-
 </style>

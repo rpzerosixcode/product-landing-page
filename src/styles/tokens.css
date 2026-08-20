@@ -16,6 +16,7 @@
   /* Typography - Fonts */
   --font-display: 'Segoe UI', system-ui, -apple-system, sans-serif;
   --font-body: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --font-accent: 'Sora', 'Segoe UI', system-ui, sans-serif;
 
   /* Typography - Type Scale */
   --text-body: 16px;
@@ -25,7 +26,13 @@
   --text-section: 32px;
   --text-large-heading: 40px;
   --text-display: 48px;
-  --text-hero: 52px;
+  --text-hero: 64px;
+
+  /* Typography - Utility Sizes */
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.25rem;
 
   /* Typography - Weights */
 

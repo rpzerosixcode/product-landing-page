@@ -93,6 +93,8 @@ Focus on implementing the interactions defined by the design.
 
 ## Phase 5 — Accessibility
 
+> Note: This phase is not a priority for the current project scope. The main objective is to structurally reproduce the approved layout created in Figma. Accessibility improvements are outside the current scope and may be implemented in a future iteration.
+
 Focus on making the landing page accessible and semantically correct.
 
 * [ ] Validate semantic HTML
@@ -110,19 +112,19 @@ Focus on making the landing page accessible and semantically correct.
 
 Focus on ensuring the implementation accurately reflects the approved design and is technically ready for release.
 
-* [ ] Review Desktop
-* [ ] Review Tablet when applicable
-* [ ] Review Mobile
-* [ ] Compare implementation against Figma
-* [ ] Fix spacing inconsistencies
-* [ ] Fix typography inconsistencies
-* [ ] Fix responsive inconsistencies
-* [ ] Optimize images
-* [ ] Optimize assets
-* [ ] Review performance
-* [ ] Review accessibility
-* [ ] Validate component consistency
-* [ ] Perform final UI review
+* [x] Review Desktop
+* [x] Review Tablet when applicable
+* [x] Review Mobile
+* [x] Compare implementation against Figma
+* [x] Fix spacing inconsistencies
+* [x] Fix typography inconsistencies
+* [x] Fix responsive inconsistencies
+* [x] Optimize images
+* [x] Optimize assets
+* [x] Review performance
+* [x] Review accessibility
+* [x] Validate component consistency
+* [x] Perform final UI review
 
 ---
 

@@ -1,13 +1,15 @@
 <script setup>
 import BaseButton from '@/components/ui/BaseButton.vue'
 import BaseIcon from '@/components/ui/BaseIcon.vue'
+
+import heroImage from '@/assets/images/aurex-laptop-hero.png'
 </script>
 
 <template>
   <section class="hero">
     <div class="hero__image">
       <img
-        src="/src/assets/images/aurex-laptop-hero.png"
+        :src="heroImage"
         alt="AUREX laptop"
       />
     </div>
@@ -28,7 +30,7 @@ import BaseIcon from '@/components/ui/BaseIcon.vue'
         clarity, simplicity, and purpose to every moment.
       </p>
 
-      <BaseButton>
+      <BaseButton variant="dark">
         EXPLORE AUREX
 
         <BaseIcon
@@ -47,14 +49,6 @@ import BaseIcon from '@/components/ui/BaseIcon.vue'
   align-items: center;
   min-height: 500px;
   overflow: hidden;
-}
-
-.hero :deep(button) {
-  background: var(--color-black);
-  color: var(--color-white);
-  padding: 10px 16px;
-  border-radius: 999px;
-  font-size: 10px;
 }
 
 .hero__image {
@@ -76,18 +70,17 @@ import BaseIcon from '@/components/ui/BaseIcon.vue'
   max-width: 420px;
 }
 
-
 .hero__title {
   margin: 0;
-  font-family: 'Sora', sans-serif;
-  font-size: 54px;
-  font-weight: 400;
+  font-family: var(--font-accent);
+  font-size: var(--text-hero);
+  font-weight: var(--font-weight-regular);
   line-height: 1.08;
   letter-spacing: -0.03em;
 }
 
 .hero__title strong {
-  font-weight: 700;
+  font-weight: var(--font-weight-bold);
 }
 
 .hero__description {
@@ -97,10 +90,6 @@ import BaseIcon from '@/components/ui/BaseIcon.vue'
   line-height: 1.6;
 }
 
-.hero :deep(svg) {
-  width: 15px;
-  height: 15px;
-}
 
 @media (max-width: 768px) {
   .hero {
@@ -119,9 +108,6 @@ import BaseIcon from '@/components/ui/BaseIcon.vue'
     justify-items: center;
   }
 
-  .hero__title {
-    font-size: 42px;
-  }
 
   .hero__description {
     max-width: 320px;

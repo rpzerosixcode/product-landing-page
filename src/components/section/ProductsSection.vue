@@ -104,6 +104,12 @@ import products from '@/data/products'
   font-size: var(--font-size-sm);
 }
 
+@media (max-width: 1024px) {
+  .products__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media (max-width: 768px) {
   .products__grid {
     grid-template-columns: repeat(1, 1fr);

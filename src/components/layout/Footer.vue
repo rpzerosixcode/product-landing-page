@@ -33,7 +33,6 @@ import BaseIcon from '@/components/ui/BaseIcon.vue'
   align-items: center;
   justify-content: space-between;
   padding-block: var(--spacing-md);
-
 }
 
 .footer__nav,

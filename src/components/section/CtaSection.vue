@@ -1,10 +1,15 @@
 <script setup>
 import BaseButton from '@/components/ui/BaseButton.vue'
 import BaseIcon from '@/components/ui/BaseIcon.vue'
+
+import bannerImage from '@/assets/images/dark-blue.jpg'
 </script>
 
 <template>
-  <section class="banner">
+  <section
+    class="banner"
+    :style="{ backgroundImage: `url(${bannerImage})` }"
+  >
     <div class="banner__content">
       <h2 class="banner__title">
         Technology, Refined
@@ -15,7 +20,7 @@ import BaseIcon from '@/components/ui/BaseIcon.vue'
       </p>
     </div>
 
-    <BaseButton>
+    <BaseButton variant="light">
       EXPLORE AUREX
 
       <BaseIcon
@@ -28,18 +33,17 @@ import BaseIcon from '@/components/ui/BaseIcon.vue'
 
 <style scoped>
 .banner {
-  width: 100%;
-  height: 135px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px var(--spacing-sm);
+  width: 100%;
+  height: 135px;
+  padding: var(--spacing-xs) var(--spacing-lg);
+  border-radius: var(--border-radius-lg);
   color: var(--color-white);
-  background-image: url('/src/assets/images/dark-blue.jpg');
   background-position: center;
-  background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 12px;
+  background-size: cover;
 }
 
 .banner__content {
@@ -52,19 +56,16 @@ import BaseIcon from '@/components/ui/BaseIcon.vue'
   color: var(--color-white);
 }
 
-.banner :deep(svg) {
-  width: 15px;
-  height: 15px;
-}
-
 @media (max-width: 768px) {
   .banner {
-    height: auto;
-    min-height: 240px;
     flex-direction: column;
     justify-content: center;
     gap: var(--spacing-lg);
+
+    min-height: 240px;
+    height: auto;
     padding: var(--spacing-lg) var(--spacing-sm);
+
     text-align: center;
   }
 

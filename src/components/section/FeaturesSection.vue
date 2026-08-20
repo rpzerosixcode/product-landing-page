@@ -17,9 +17,9 @@ import features from '@/data/features'
       </div>
 
       <div class="feature__content">
-        <h2 class="feature__number">
+        <span class="feature__number">
           {{ feature.number }}
-        </h2>
+        </span>
 
         <h2 class="feature__title">
           {{ feature.title }}
@@ -37,7 +37,7 @@ import features from '@/data/features'
 .features {
   display: grid;
   gap: var(--spacing-lg);
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .feature {
@@ -58,7 +58,6 @@ import features from '@/data/features'
   object-fit: cover;
   filter: grayscale(100%);
   border-radius: var(--border-radius-lg);
-
 }
 
 .feature__content {
@@ -69,9 +68,21 @@ import features from '@/data/features'
   gap: var(--spacing-sm);
 }
 
+.feature__number {
+  font-size: var(--text-heading);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-black);
+}
+
 .feature__title,
 .feature__description {
   max-width: 350px;
+}
+
+@media (max-width: 1024px) {
+  .feature__image {
+    width: 400px;
+  }
 }
 
 @media (max-width: 768px) {
