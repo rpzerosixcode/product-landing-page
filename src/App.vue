@@ -27,8 +27,11 @@ import CtaSection from '@/components/section/CtaSection.vue'
 .app {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
-  margin: var(--spacing-xs) var(--spacing-lg);
+  width: min(100% - 48px, 1200px);
+  margin-inline: auto;
+
+ 
+  gap: var(--spacing-xl);
 }
 
 .app__main {

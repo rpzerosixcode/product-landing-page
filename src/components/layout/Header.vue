@@ -12,10 +12,10 @@ import BaseIcon from '@/components/ui/BaseIcon.vue'
       class="header__nav"
       aria-label="Main navigation"
     >
+      <a href="#products">Products</a>
       <a href="#community">Community</a>
       <a href="#journal">Journal</a>
-      <a href="#about">About</a>
-      <a href="#philosophy">Philosophy</a>
+<a href="#philosophy">Philosophy</a>
     </nav>
 
     <a
@@ -39,8 +39,9 @@ import BaseIcon from '@/components/ui/BaseIcon.vue'
 <style scoped>
 .header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+
 }
 
 .header__nav {
