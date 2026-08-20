@@ -79,6 +79,8 @@ button {
   padding: 0 var(--container-padding);
 }
 
+
+
 /* Responsive typography */
 @media (max-width: 768px) {
   h1 {

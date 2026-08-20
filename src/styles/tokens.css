@@ -14,8 +14,8 @@
   --color-gray-900: #111827;
 
   /* Typography - Fonts */
-  --font-display: 'Sora', sans-serif;
-  --font-body: 'Inter', sans-serif;
+  --font-display: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --font-body: 'Segoe UI', system-ui, -apple-system, sans-serif;
 
   /* Typography - Type Scale */
   --text-body: 16px;
@@ -28,7 +28,12 @@
   --text-hero: 52px;
 
   /* Typography - Weights */
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
   --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
 
   /* Spacing */
   --spacing-xs: 0.5rem;
@@ -57,11 +62,4 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 1024px;
   --breakpoint-xl: 1200px;
-}
-
-/* Responsive container padding */
-@media (max-width: 768px) {
-  :root {
-    --container-padding: var(--spacing-xs);
-  }
 }
