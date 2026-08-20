@@ -78,26 +78,3 @@ button {
   margin: 0 auto;
   padding: 0 var(--container-padding);
 }
-
-
-
-/* Responsive typography */
-@media (max-width: 768px) {
-  h1 {
-    font-size: var(--text-display);
-  }
-
-  h2 {
-    font-size: var(--text-large-heading);
-  }
-}
-
-@media (max-width: 480px) {
-  h1 {
-    font-size: var(--text-large-heading);
-  }
-
-  h2 {
-    font-size: var(--text-heading);
-  }
-}

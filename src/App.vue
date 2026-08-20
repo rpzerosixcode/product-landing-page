@@ -29,12 +29,12 @@ import CtaSection from '@/components/section/CtaSection.vue'
   flex-direction: column;
   width: min(100% - 48px, 1200px);
   margin-inline: auto;
-
- 
   gap: var(--spacing-xl);
 }
 
 .app__main {
-  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xl);
 }
 </style>

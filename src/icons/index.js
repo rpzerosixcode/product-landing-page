@@ -6,6 +6,7 @@ import {
   faArrowRight,
   faArrowUp,
   faArrowDown,
+  faArrowUpRightFromSquare,
   faBagShopping,
   faBars,
 } from '@fortawesome/free-solid-svg-icons'
@@ -19,12 +20,11 @@ import {
 export const icons = {
   instagram: 'fa-brands fa-instagram',
   facebook: 'fa-brands fa-facebook',
-
   'arrow-left': 'fa-solid fa-arrow-left',
   'arrow-right': 'fa-solid fa-arrow-right',
   'arrow-up': 'fa-solid fa-arrow-up',
   'arrow-down': 'fa-solid fa-arrow-down',
-
+  'arrow-up-right': 'fa-solid fa-arrow-up-right-from-square',
   'bag-shopping': 'fa-solid fa-bag-shopping',
   menu: 'fa-solid fa-bars',
 }
@@ -37,6 +37,7 @@ export function registerIcons() {
     faArrowRight,
     faArrowUp,
     faArrowDown,
+    faArrowUpRightFromSquare,
     faBagShopping,
     faBars,
     faInstagram,

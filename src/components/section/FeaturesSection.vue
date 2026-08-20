@@ -77,6 +77,14 @@ import features from '@/data/features'
 @media (max-width: 768px) {
   .feature {
     display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .feature__image {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
   }
 
   .feature__content {
@@ -84,6 +92,5 @@ import features from '@/data/features'
     justify-content: center;
     text-align: center;
   }
-
 }
 </style>
